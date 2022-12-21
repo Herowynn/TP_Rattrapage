@@ -328,9 +328,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 160
-        y: 832
+        y: 864
         width: 32
-        height: 64
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -791,7 +791,7 @@ TextureImporter:
         serializedVersion: 2
         x: 16
         y: 800
-        width: 32
+        width: 16
         height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -852,12 +852,12 @@ TextureImporter:
       name: SunnysideWorld_Tileset_V0.1_36
       rect:
         serializedVersion: 2
-        x: 21
-        y: 723
-        width: 70
-        height: 59
+        x: 64
+        y: 768
+        width: 11
+        height: 14
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1021,9 +1021,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 132
-        y: 736
+        y: 752
         width: 40
-        height: 31
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1106,7 +1106,7 @@ TextureImporter:
         serializedVersion: 2
         x: 176
         y: 688
-        width: 64
+        width: 32
         height: 55
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1547,8 +1547,8 @@ TextureImporter:
         serializedVersion: 2
         x: 16
         y: 576
-        width: 32
-        height: 16
+        width: 16
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1730,6 +1730,153 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: SunnysideWorld_Tileset_V0.1_78
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 864
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 823d4cc9fc7052a41b99fcb2598268bf
+      internalID: -2051943241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SunnysideWorld_Tileset_V0.1_79
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 832
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a424f7d4cbd59b64d9cde8f4c9d9d173
+      internalID: -2015802205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SunnysideWorld_Tileset_V0.1_80
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 800
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35f14a8d229d576428d633c38c24f76b
+      internalID: 564696383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SunnysideWorld_Tileset_V0.1_81
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 723
+        width: 8
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ffd581a317d604c84411f6e868df9f
+      internalID: 2075591049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SunnysideWorld_Tileset_V0.1_82
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 755
+        width: 70
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de68a1a32cfc64640910c0f79b6b1e35
+      internalID: -70501782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SunnysideWorld_Tileset_V0.1_83
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 736
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f917de3df6469c547be9ddbc1c9c47a3
+      internalID: -983521154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SunnysideWorld_Tileset_V0.1_84
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 576
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6366c9b3d8d85a544a81e1c982707c50
+      internalID: 405793727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -1746,6 +1893,8 @@ TextureImporter:
       SunnysideWorld_Tileset_V0.1_33: 2036562923
       SunnysideWorld_Tileset_V0.1_77: 215080426
       SunnysideWorld_Tileset_V0.1_11: -956235871
+      SunnysideWorld_Tileset_V0.1_80: 564696383
+      SunnysideWorld_Tileset_V0.1_81: 2075591049
       SunnysideWorld_Tileset_V0.1_26: -71932306
       SunnysideWorld_Tileset_V0.1_42: 993045079
       SunnysideWorld_Tileset_V0.1_61: 1515714468
@@ -1755,8 +1904,10 @@ TextureImporter:
       SunnysideWorld_Tileset_V0.1_69: -1527359644
       SunnysideWorld_Tileset_V0.1_56: -1037914131
       SunnysideWorld_Tileset_V0.1_58: 1769389260
+      SunnysideWorld_Tileset_V0.1_83: -983521154
       SunnysideWorld_Tileset_V0.1_71: 1672198036
       SunnysideWorld_Tileset_V0.1_25: 2037754548
+      SunnysideWorld_Tileset_V0.1_84: 405793727
       SunnysideWorld_Tileset_V0.1_2: 846302844
       SunnysideWorld_Tileset_V0.1_37: 577717650
       SunnysideWorld_Tileset_V0.1_1: 816819622
@@ -1784,6 +1935,7 @@ TextureImporter:
       SunnysideWorld_Tileset_V0.1_64: 2079523067
       SunnysideWorld_Tileset_V0.1_28: 1807242238
       SunnysideWorld_Tileset_V0.1_75: -2056580383
+      SunnysideWorld_Tileset_V0.1_82: -70501782
       SunnysideWorld_Tileset_V0.1_18: 748487770
       SunnysideWorld_Tileset_V0.1_24: 1960832165
       SunnysideWorld_Tileset_V0.1_73: 422942463
@@ -1799,6 +1951,7 @@ TextureImporter:
       SunnysideWorld_Tileset_V0.1_6: 76357901
       SunnysideWorld_Tileset_V0.1_36: 1983160492
       SunnysideWorld_Tileset_V0.1_76: -976054126
+      SunnysideWorld_Tileset_V0.1_78: -2051943241
       SunnysideWorld_Tileset_V0.1_29: -940626151
       SunnysideWorld_Tileset_V0.1_20: -743740651
       SunnysideWorld_Tileset_V0.1_50: -1072972583
@@ -1819,6 +1972,7 @@ TextureImporter:
       SunnysideWorld_Tileset_V0.1_45: -2063332817
       SunnysideWorld_Tileset_V0.1_49: -1575501391
       SunnysideWorld_Tileset_V0.1_62: 1110798119
+      SunnysideWorld_Tileset_V0.1_79: -2015802205
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -91,7 +91,217 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: spr_sword_strip10_0
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 25
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 378bb8d19355ea4499b735bd0fc6b340
+      internalID: -2002810445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_sword_strip10_1
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 25
+        width: 39
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6746e0d5adeac3408d8031b76e0b9af
+      internalID: 1703258685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_sword_strip10_2
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 24
+        width: 43
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 423c2f94c91db6d4882149b188b5fedd
+      internalID: 370395688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_sword_strip10_4
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 24
+        width: 46
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdf954017bc7c6441add0fa2f8f61d04
+      internalID: -73746114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_sword_strip10_5
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 24
+        width: 47
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66791c447c37af6448e5ff483d72a747
+      internalID: 632988366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_sword_strip10_6
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 25
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3570e0d5ccdd73448bf7e46028e04813
+      internalID: 2130505561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_sword_strip10_7
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 25
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef692a039a204f743900bb31a6dbb4d0
+      internalID: 559286970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_sword_strip10_8
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 25
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 587e34a6c4f9d544992e3834013d6d05
+      internalID: -545262624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_sword_strip10_11
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 25
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3be003dbd84f31c4e9cd6ec1e94c7b94
+      internalID: -1977101374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_sword_strip10_12
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 24
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcdb9dd7c6ae58c42b27ed7b1ba2fa1a
+      internalID: -856040340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -102,7 +312,22 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_sword_strip10_9: -1522708374
+      spr_sword_strip10_1: 1703258685
+      spr_sword_strip10_12: -856040340
+      spr_sword_strip10_3: -297914554
+      spr_sword_strip10_7: 559286970
+      spr_sword_strip10_0: -2002810445
+      spr_sword_strip10_8: -545262624
+      spr_sword_strip10_6: 2130505561
+      spr_sword_strip10_14: 864267809
+      spr_sword_strip10_11: -1977101374
+      spr_sword_strip10_10: 1426249804
+      spr_sword_strip10_13: 1048904401
+      spr_sword_strip10_4: -73746114
+      spr_sword_strip10_5: 632988366
+      spr_sword_strip10_2: 370395688
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
