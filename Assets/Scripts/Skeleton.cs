@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Skeleton : MonoBehaviour
 {
-    [SerializeField] int _life = 5;
+    int _life = 5;
+    public GameObject Canvas;
 
     public void ReduceLife()
     {
@@ -17,6 +18,11 @@ public class Skeleton : MonoBehaviour
         }
         else
             gameObject.GetComponent<Animator>().SetTrigger("Hurt");
+    }
+
+    public void ActivateCanvas(bool state)
+    {
+        Canvas.SetActive(state);
     }
 
 

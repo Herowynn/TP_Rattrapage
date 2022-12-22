@@ -4,18 +4,19 @@ using UnityEngine;
 
 public class Tree : MonoBehaviour
 {
-    [SerializeField] int _life = 3;
-    public Sprite TreeTrunk;
+    int _life = 3;
+    public Sprite[] TreeSprites;
     public GameObject Branch;
+    public GameObject Canvas;
 
     public void ReduceLife()
     {
         _life--;
+        gameObject.GetComponent<SpriteRenderer>().sprite = TreeSprites[_life];
 
         if (_life == 0)
         {
             enabled = false;
-            gameObject.GetComponent<SpriteRenderer>().sprite = TreeTrunk;
 
             System.Random rand = new System.Random();
 
@@ -28,5 +29,10 @@ public class Tree : MonoBehaviour
             GameObject branch3 = GameObject.Instantiate(Branch);
             branch3.transform.position = new Vector3(gameObject.transform.position.x - .8f, gameObject.transform.position.y + .7f, gameObject.transform.position.z);
         }
+    }
+
+    public void ActivateCanvas(bool state)
+    {
+        Canvas.SetActive(state);
     }
 }

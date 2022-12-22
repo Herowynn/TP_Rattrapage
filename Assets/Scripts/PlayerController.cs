@@ -8,8 +8,7 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public float MoveForce = 20f;
-    public string CutWoodButtonName;
-    public string AttackButtonName;
+    public string InterractButtonName;
 
     Rigidbody2D _playerBody;
     Vector2 _direction;
@@ -17,6 +16,7 @@ public class PlayerController : MonoBehaviour
     SpriteRenderer _spriteRenderer;
     [SerializeField] Tree _tree;
     [SerializeField] Skeleton _skeleton;
+    [SerializeField] Carrot _carrot;
 
     private void Start()
     {
@@ -32,16 +32,22 @@ public class PlayerController : MonoBehaviour
 
         _direction = new Vector2(horizontal, vertical);
 
-        if(Input.GetKeyDown(CutWoodButtonName) && _tree != null)
+        if(Input.GetKeyDown(InterractButtonName))
         {
-            _playerAnimator.SetTrigger("CutWood");
-            StartCoroutine("WaitForAnimation", 1f);
-        }
-
-        if (Input.GetKeyDown(AttackButtonName) && _skeleton != null)
-        {
-            _playerAnimator.SetTrigger("Attack");
-            StartCoroutine("WaitForAnimation", 1f);
+            if(_tree != null)
+            {
+                _playerAnimator.SetTrigger("CutWood");
+                StartCoroutine("WaitForAnimation", 1f);
+            }
+            else if(_skeleton != null)
+            {
+                _playerAnimator.SetTrigger("Attack");
+                StartCoroutine("WaitForAnimation", 1f);
+            }
+            else if(_carrot != null)
+            {
+                _carrot.PickCarrot();
+            }
         }
     }
 
@@ -76,16 +82,27 @@ public class PlayerController : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        collision.gameObject.TryGetComponent<Tree>(out _tree);
-        collision.gameObject.TryGetComponent<Skeleton>(out _skeleton);
+        if (collision.gameObject.TryGetComponent<Tree>(out _tree)) _tree.ActivateCanvas(true);
+        if(collision.gameObject.TryGetComponent<Skeleton>(out _skeleton)) _skeleton.ActivateCanvas(true);
+        if(collision.gameObject.TryGetComponent<Carrot>(out _carrot)) _carrot.ActivateCanvas(true);
     }
 
     private void OnCollisionExit2D(Collision2D collision)
     {
-        if (_tree != null || _skeleton != null)
+        if (_tree != null)
         {
-            _tree = null;
+            _tree.ActivateCanvas(false);
+            _tree = null;            
+        }
+        else if(_skeleton != null)
+        {
+            _skeleton.ActivateCanvas(false);
             _skeleton = null;
+        }
+        else if(_carrot != null)
+        {
+            _carrot.ActivateCanvas(false);
+            _carrot = null;
         }
     }
 }
